@@ -1,0 +1,7 @@
+<app-post-list-item *ngFor="let post of Posts"
+                    [postTitle]="post.title"
+                    [postContent]="post.content"
+                    [loveItsNumber]="post.loveIts"
+                    [createdAtDate]="post.created_at"></app-post-list-item>
+
+

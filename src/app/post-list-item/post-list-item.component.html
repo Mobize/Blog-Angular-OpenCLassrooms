@@ -1,0 +1,13 @@
+<li [ngClass]="{'list-group-item': true,
+              'list-group-item-success': loveItsPositive(),
+              'list-group-item-danger': loveItsPositive() === false}">
+  <h4>{{ postTitle }}</h4>
+  <div class="post-date">{{ lastUpdate | date : 'dd MMMM yyyy' }} à {{ lastUpdate | date : ' HH:mm:ss' }}</div>
+  <div class="panel panel-default">
+    <div class="panel-body">{{ postContent }}</div>
+  </div>
+  <p>Nombre de like : {{ loveItsNumber }}</p>
+  <button class="btn btn-success btnleft" (click)="increaseLoveIts()">Like</button>
+  <button class="btn btn-danger" (click)="decreaseLoveIts()">Don't Like</button>
+</li>
+
