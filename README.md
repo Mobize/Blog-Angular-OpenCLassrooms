@@ -1,6 +1,11 @@
 # BlogAngularOc
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+<h1>Notes pour les correcteurs :</h1> 
+1.Créer un dossier de votre choix (exemple : "clone-projet"). 
+2.Via votre terminal, placez-vous sur ce dossier et tapez la commande "git init". 
+3.Ensuite, clonez le projet via la commande "git clone https://github.com/Mobize/Blog-Angular-OpenCLassrooms.git". 
+4.Une fois le clone effectué, placez-vous dans "projet-blog-ocr" et entrez la commande suivante "npm install" (un petit temps d'attente normalement !!!). 
+5.Pour finir, vous pouvez lancer le serveur via la commande "ng serve" et commnencer la correcti
 
 ## Development server
 
