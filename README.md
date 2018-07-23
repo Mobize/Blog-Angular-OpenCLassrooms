@@ -1,11 +1,11 @@
 # BlogAngularOc
 
 Notes pour les correcteurs :
-Créer un dossier de votre choix (exemple : "clone-projet").
-Via votre terminal, placez-vous sur ce dossier et tapez la commande "git init".
-Ensuite, clonez le projet via la commande "git clone https://github.com/Noann35/projet-blog-ocr".
-Une fois le clone effectué, placez-vous dans "projet-blog-ocr" et entrez la commande suivante "npm install" (un petit temps d'attente normalement !!!).
-Pour finir, vous pouvez lancer le serveur via la commande "ng serve" et commnencer la correction.
+1.Créer un dossier de votre choix (exemple : "clone-projet").
+2.Via votre terminal, placez-vous sur ce dossier et tapez la commande "git init".
+3.Ensuite, clonez le projet via la commande "git clone https://github.com/Noann35/projet-blog-ocr".
+4.Une fois le clone effectué, placez-vous dans "projet-blog-ocr" et entrez la commande suivante "npm install" (un petit temps d'attente normalement !!!).
+5.Pour finir, vous pouvez lancer le serveur via la commande "ng serve" et commnencer la correction.
 
 ## Development server
 
