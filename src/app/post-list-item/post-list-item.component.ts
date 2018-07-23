@@ -1,4 +1,4 @@
-import { Component, OnInit, Input} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-post-list-item',
@@ -7,36 +7,21 @@ import { Component, OnInit, Input} from '@angular/core';
 })
 export class PostListItemComponent implements OnInit {
 
-  lastUpdate = new Date();
-
   @Input() postTitle: string;
   @Input() postContent: string;
-  @Input() loveItsNumber: number;
-  @Input() createdAtDate: Date;
-
-  // Pour afficher les classes Bootstrap en fonction du nombre de likes
-   loveItsPositive() {
-     if (this.loveItsNumber > 0) {
-        return this;
-     } else {
-        return false;
-     }
-   }
-
-  //  Augmente le nombre de like
-    increaseLoveIts() {
-     this.loveItsNumber ++;
-   }
-
-   //  Diminue le nombre de like
-   decreaseLoveIts() {
-     this.loveItsNumber --;
-   }
+  @Input() postCreatedAt: string;
+  @Input() postLoveIts: number;
 
   constructor() { }
 
   ngOnInit() {
   }
+
+  onLoveIt() {
+    this.postLoveIts++;
+  }
+
+  onDontLoveIt() {
+    this.postLoveIts--;
+  }
 }
-
-
