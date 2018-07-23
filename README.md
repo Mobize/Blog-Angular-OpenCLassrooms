@@ -1,6 +1,11 @@
 # BlogAngularOc
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+Notes pour les correcteurs :
+Créer un dossier de votre choix (exemple : "clone-projet").
+Via votre terminal, placez-vous sur ce dossier et tapez la commande "git init".
+Ensuite, clonez le projet via la commande "git clone https://github.com/Noann35/projet-blog-ocr".
+Une fois le clone effectué, placez-vous dans "projet-blog-ocr" et entrez la commande suivante "npm install" (un petit temps d'attente normalement !!!).
+Pour finir, vous pouvez lancer le serveur via la commande "ng serve" et commnencer la correction.
 
 ## Development server
 
